@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bikcraft - Contato - 11 9999-9999</title>
+  <meta name="description" content="Entre em contato conosco e faça um orçamento pelo email orcamento@bikcraft.com ou pelo número +55 11 9999-9999">
+
+  <meta property="og:type" content="website"/>
+  <meta property="og:title" content="Bikcraft - Contato - 11 9999-9999"/>
+  <meta property="og:description" content="Entre em contato conosco e faça um orçamento pelo email orcamento@bikcraft.com ou pelo número +55 11 9999-9999"/>
+  <meta property="og:url" content="http://devmagno.github.io/bikcraft/contact.html"/>
+  <meta property="og:image" content="http://devmagno.github.io/bikcraft/img/og-image.png"/>
+  <meta property="og:site_name" content="Bikcraft"/>
+
+  <script src="https://kit.fontawesome.com/77daa57238.js" crossorigin="anonymous"></script>
+
+  <meta name="theme-color" content="#FEC63E">
+
+  <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+
+  <link rel="stylesheet" href="../css/style.css">
+  <script>document.documentElement.classList.add("js")</script>
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <a href="index.html" class="grid-2">
+        <img src="../img/bikcraft.svg" alt="Bikcraft">
+      </a>
+      <nav class="header_menu grid-14">
+        <ul>
+          <li><a href="about.html">Sobre</a></li>
+          <li><a href="products.html">Produtos</a></li>
+          <li><a href="portfolio.html">Portfólio</a></li>
+          <li><a href="contact.html" class="menu_active">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  
+  <section class="internal-intro internal-contact">
+    <div class="container">
+      <h1 data-anime="400" class="fadeInDown">Contato</h1>
+      <p data-anime="800" class="fadeInDown">Tire as suas dúvidas com a gente</p>
+    </div>
+  </section>
+
+  <section class="contact">
+    <div class="container">
+      <form id="form_orcamento" class="contact_form grid-8 fadeInLeft formphp" data-anime="1000" method="POST" action="enviar-sendgrid.php">
+        <label for="name">Nome</label>
+        <input type="text" id="name" name="nome" required>
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" required>
+        <label for="tel">Telefone</label>
+        <input type="tel" id="tel" name="tel" required>
+        <label for="leaveBlank1" class="hidden">Se você não é um robô, deixe em branco</label>
+        <input type="text" id="leaveBlank1" name="leaveBlank1" class="hidden">
+        <label for="leaveBlank2" class="hidden">Se você não é um robô, não mude este campo</label>
+        <input type="text" id="leaveBlank2" name="leaveBlank2" class="hidden" value="http://">
+        <label for="msg">Mensagem</label>
+        <textarea id="msg" cols="30" rows="5" name="msg" required></textarea>
+        <button type="submit" class="btn" id="send" name="send">Enviar</button>
+      </form>
+      <div class="contact_data grid-8 fadeInLeft" data-anime="1100">
+        <h3>Dados</h3>
+        <span>+55 11 9999-9999</span>
+        <span>orcamento@bikcraft.com</span>
+        <span>Rua Ali Perto - São Paulo</span>
+        <span>São Paulo - SP - Brasil</span>
+        <h3>Redes Sociais</h3>
+        <ul>
+          <li data-anime="1300" class="fadeInUp"><a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+          <li data-anime="1400" class="fadeInUp"><a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
+          <li data-anime="1500" class="fadeInUp"><a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="container map-photo fadeInUp" data-anime="1600">
+    <a href="https://www.google.com.br/maps" target="_blank" class="grid-16">
+      <img src="../img/endereco-bikcraft.jpg" alt="Endereço da Bikcraft">
+    </a>
+  </section>
+
+  <section class="break">
+    <blockquote class="external-quote container">
+    <p>"O verdadeiro segredo da felicidade está em ter um genuíno interesse por todos os detalhes da vida cotidiana."</p>
+    <cite>William Morris</cite>
+    </blockquote>
+  </section>
+  <footer>
+    <div class="footer-black">
+      <div class="container">
+        <div class="grid-8 footer_history">
+          <h3>Nossa história</h3>
+          <p>
+            Quando iniciamos a Bikcraft queriamos apenas um produto que adoraríamos utilizar. Eramos apaixonados por pedalar e também por fazer as coisas com as nossas próprias mãos. Assim surgiu um sonho na garagem da nossa casa.
+          </p>
+        </div>
+
+        <div class="grid-4 footer_contact">
+          <h3>Contato</h3>
+          <ul>
+            <li>- 11 9999-9999</li>
+            <li>- contato@bikcraft.com</li>
+            <li>- São Paulo - SP</li>
+          </ul>
+        </div>
+
+        <div class="grid-4 footer_social">
+          <h3>Redes sociais</h3>
+          <ul>
+            <li><a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="copyright">
+      <div class="container">
+        <p class="grid-16 copy-text">Bikcraft 2020 - Alguns direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/simple-anime.js"></script>
+  <script src="../js/simple-form.js"></script>
+  <script src="../js/script.js"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-180193644-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-180193644-1');
+  </script>
+</body>
+</html>
