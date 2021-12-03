@@ -21,8 +21,7 @@ Posteriormente, durante o curso de **CSS com SASS**, foi realizada uma **engenha
 
 ## 🖥️ Demonstração
 
-Você pode acessar o projeto clicando [aqui](https://felipedosantos.com.br/Bikcraft/views/).
-
+Você pode acessar o projeto clicando [aqui](https://felipedosantos.com.br/Bikcraft)
 ---
 
 ## 🔖 Layout
