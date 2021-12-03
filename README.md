@@ -20,8 +20,7 @@ Posteriormente, durante o curso de **CSS com SASS**, foi realizada uma **engenha
 ---
 
 ## 🖥️ Demonstração
-"Clique para acessar o projeto")](https://felipedosantos.com.br/bikcraft "Clique para acessar o projeto")      
-
+"Clique para acessar o projeto")](https://felipedosantos.com.br/bikcraft 
 ---
 
 ## 🔖 Layout
